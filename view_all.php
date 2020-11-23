@@ -42,7 +42,7 @@ if($total != 0)
 				<td>".$result['choose']."</td>
 				<td>".$result['amount']."</td>
 				<td><a href='update.php?id=$result[id]&nm=$result[name]&fnm=$result[fathername]&db=$result[dob]&pup=$result[pickup]&dop=$result[drop1]&categ=$result[choose]&amt=$result[amount]'>Edit</a></td>
-				<td><a href=delete.php''>Delete</a></td>
+				<td><a href='delete.php?id=$result[id]'>Delete</a></td>
 			</tr>";
 	}
 }
@@ -54,3 +54,6 @@ if($total != 0)
 	</table>
 	<a href="dashboard.php">BACK</a>
 	<html>
+
+
+

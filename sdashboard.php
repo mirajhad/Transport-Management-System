@@ -169,21 +169,20 @@ echo "<tr>
 <center><h3>PAYMENT METHOD</h3></center>
 <tr>
 <th>DEBIT CARD</th>
-<td><input type="radio" name="debitcard" value=""></td>
+<td><input type="radio" name="debitcard"></td>
 </tr>
 <tr>
 <th>VISA</th>
-<td><input type="radio" name="visa" value="" checked></td>
+<td><input type="radio" name="visa" ></td>
 </tr>
 <tr>
 <th>BHIM</th>
-<td><input type="radio" name="bhim" value="male"></td>
+<td><input type="radio" name="bhim"></td>
 </tr>
 <tr>
 <th>CASH</th>
-<td><input type="radio" name="cash" value="male"></td>
+<td><input type="radio" name="cash"></td>
 </tr>
-</table><br><br>
-<center><input type="submit" name="submit" value="PAY"></center>
+</table><br><br><input type="submit" name="submit" value="PAY">
 </body>
 </html>
